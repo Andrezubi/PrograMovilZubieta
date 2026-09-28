@@ -18,13 +18,14 @@ import org.jetbrains.compose.resources.painterResource
 
 import examenzubieta.shared.generated.resources.Res
 import examenzubieta.shared.generated.resources.compose_multiplatform
+import ucb.zubieta.project.ExamenClima.presentation.screen.ClimateScreen
 import ucb.zubieta.project.PruebasGenerales.presentation.screen.CatalogScreen
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-        CatalogScreen()
+        ClimateScreen()
         /*var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier
