@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749783849921",
+    "project_id": "examenzubieta",
+    "storage_bucket": "examenzubieta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749783849921:android:e48a5bc32bade37e4dad40",
+        "android_client_info": {
+          "package_name": "ucb.zubieta.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7tVi0vvTlQq7t1zO8CdCVE5iG7dY52dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

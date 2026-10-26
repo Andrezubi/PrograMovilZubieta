@@ -15,9 +15,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
-
-import examenzubieta.shared.generated.resources.Res
-import examenzubieta.shared.generated.resources.compose_multiplatform
+import ucb.zubieta.project.exchange.presentation.screen.ExchangeScreen
+import edu.ucb.ds.shared.generated.resources.Res
+import edu.ucb.ds.shared.generated.resources.compose_multiplatform
 import ucb.zubieta.project.ExamenClima.presentation.screen.ClimateScreen
 import ucb.zubieta.project.PruebasGenerales.presentation.screen.CatalogScreen
 
@@ -26,6 +26,7 @@ import ucb.zubieta.project.PruebasGenerales.presentation.screen.CatalogScreen
 fun App() {
     MaterialTheme {
         ClimateScreen()
+        ExchangeScreen()
         /*var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier

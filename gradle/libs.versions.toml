@@ -21,8 +21,16 @@ ksp = "2.3.6"
 kotlinxSerializationJson = "1.8.0"
 navigationCompose = "2.9.2"
 coil="3.0.4"
-
-
+room3 = "3.1.0-alpha01"
+sqlite = "2.7.1"
+firebaseDatabase = "2.7.0"
+koin = "4.2.2"
+googleServices = "4.4.2" # O la última versión estable
+workRuntimeKtx = "2.11.0"
+firebaseDatabaseVersion = "23.0.0"
+wireGrpcClient = "7.0.3"
+wireRuntime = "7.0.3"
+wire = "7.0.3"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -55,7 +63,17 @@ navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-co
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson"}
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
 coil-network-ktor = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
-
+androidx-sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
+androidx-room3-runtime = { module = "androidx.room3:room3-runtime", version.ref = "room3" }
+androidx-room3-compiler = { module = "androidx.room3:room3-compiler", version.ref = "room3" }
+androidx-room3-sqlite-wrapper = { module = "androidx.room3:room3-sqlite-wrapper", version.ref = "room3" }
+firebase-database = { module = "dev.gitlive:firebase-database", version.ref = "firebaseDatabase" }
+koin-android = { module = "io.insert-koin:koin-android" }
+androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
+google-firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabaseVersion" }
+# Optional SQLite Wrapper
+wire-grpc-client = { module = "com.squareup.wire:wire-grpc-client", version.ref = "wireGrpcClient" }
+wire-runtime = { module = "com.squareup.wire:wire-runtime", version.ref = "wireRuntime" }
 
 
 [plugins]
@@ -67,4 +85,11 @@ kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref =
 detekt = { id = "dev.detekt", version.ref = "detetk"}
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+androidx-room3 = { id = "androidx.room3", version.ref = "room3" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+wire = { id = "com.squareup.wire", version.ref="wire"}
+
+
+
+
 
